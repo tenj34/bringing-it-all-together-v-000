@@ -40,7 +40,6 @@ class Dog
     dog = self.new(name,breed)
     dog.save
     dog
-
   end
 
 end
