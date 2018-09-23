@@ -23,4 +23,8 @@ class Dog
     DB[:conn].execute("DROP TABLE dogs")
   end
 
+  def save
+
+  end
+
 end
