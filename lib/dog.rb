@@ -69,7 +69,7 @@ class Dog
     sql = <<-SQL
       UPDATE dogs SET name = ?, breed = ? WHERE id = ?
     SQL
-    DB[:conn].execute(sql, self.name, self.grade, self.id)
+    DB[:conn].execute(sql, self.name, self.breed, self.id)
   end
 
   def self.new_from_db(row)
